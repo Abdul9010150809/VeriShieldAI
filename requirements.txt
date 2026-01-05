@@ -1,0 +1,14 @@
+# --- The Brain (AI Logic) ---
+semantic-kernel           # Removed strict version pinning
+openai>=1.0.0             
+azure-ai-inference        
+
+# --- The Senses (Vision & Voice) ---
+azure-ai-vision-face      
+azure-cognitiveservices-speech 
+
+# --- The Body (API & Data) ---
+fastapi                   
+uvicorn                   
+python-dotenv             
+pydantic
